@@ -1,0 +1,7 @@
+ul li {
+  display: inline;
+}
+
+#profile-img {
+  border-radius: 50%;
+}
