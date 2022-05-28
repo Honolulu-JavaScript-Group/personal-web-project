@@ -1,7 +1,44 @@
 ul li {
   display: inline;
+  margin-right: 30px;
 }
 
 #profile-img {
   border-radius: 50%;
+}
+
+section {
+  height: 200px;
+  padding: 20px;
+}
+
+section:nth-of-type(even) {
+  background-color: cornflowerblue;
+}
+
+section:nth-of-type(odd) {
+  background-color: gray;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 50px;
+  color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.icons {
+  box-sizing: content-box;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.logo-image {
+  width: 100%;
 }
